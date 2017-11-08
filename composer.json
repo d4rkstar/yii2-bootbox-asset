@@ -1,0 +1,31 @@
+{
+    "name": "d4rkstar/yii2-bootbox-asset",
+    "description": "Yii2 asset bundle of bootbox plugin (http://bootboxjs.com/)",
+    "keywords": ["yii", "asset", "bootbox"],
+    "type": "yii2-asset",
+    "license": "MIT",
+    "version": "0.1.2",
+    "authors": [
+        {
+            "name": "Brusenskiy Dmitry",
+            "email": "brussens@nativeweb.ru"
+        },
+	{
+	    "name": "Bruno Salzano",
+            "email": "d4rkstar@gmail.com" 
+	}
+    ],
+    "support": {
+        "issues": "https://github.com/d4rkstar/yii2-bootbox-asset/issues?state=open",
+        "source": "https://github.com/d4rkstar/yii2-bootbox-asset"
+    },
+    "require": {
+        "yiisoft/yii2": "*",
+        "bower-asset/bootbox.js": "4.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "d4rkstar\\bootbox\\": ""
+        }
+    }
+}
