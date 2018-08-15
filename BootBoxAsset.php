@@ -20,7 +20,7 @@ use yii\web\AssetBundle;
 
 class BootBoxAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/bower/bootbox.js';
+    public $sourcePath = '@bower/bootbox.js';
 
     public $js = [
         'bootbox.js',
